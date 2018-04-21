@@ -10,7 +10,7 @@ Time spent: 3 hours spent in total
   - [ ] Summary: Was able to successfully make an XSS alert through making a post
     - Vulnerability types: XSS
     - Tested in version: 4.1.4
-    - Fixed in version: 
+    - Fixed in version: 4.2
   - [ ] GIF Walkthrough: <img src='https://github.com/mster0103/CodePath-Week-7/blob/master/PostXSS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
   - [ ] Steps to recreate: Create a new post and type <script> alert("XSS Vulnerability"); </script> and the alert will display when viewing the post 
@@ -21,7 +21,7 @@ Time spent: 3 hours spent in total
   - [ ] Summary: Was able to successfully make an XSS alert through making a comment
     - Vulnerability types: XSS
     - Tested in version: 4.1.4
-    - Fixed in version: 
+    - Fixed in version: 4.2
   - [ ] GIF Walkthrough: <img src='https://github.com/mster0103/CodePath-Week-7/blob/master/CommentXSS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: Create a new comment and type <script> alert("XSS Vulnerability"); </script> and the alert will diplay when posting the comment
   - [ ] Affected source code:
@@ -31,7 +31,7 @@ Time spent: 3 hours spent in total
   - [ ] Summary: Was able to make a post with a possibly malicious XSS through mouse over
     - Vulnerability types: XSS
     - Tested in version: 4.1.4
-    - Fixed in version: 
+    - Fixed in version: 4.5
   - [ ] GIF Walkthrough: <img src='https://github.com/mster0103/CodePath-Week-7/blob/master/postclickXSS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: Create a new post and type <b onmouseover=alert('exploitmeplease')>click me!</b>
   - [ ] Affected source code:
@@ -50,7 +50,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Installing wordpress distillery came with come complications
+Installing wordpress distillery came with come complications with the dependency
 
 ## License
 
